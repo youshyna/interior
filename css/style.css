@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+  font-size: 13px;
+  transition: all 0.8s ease;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  width: 60%;
+  height: 60px;
+}
+.header--leftside {
+  width: 60%;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin: 20px 0 0 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header__items {
+  width: 55%;
+  padding-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  color: black;
+}
+
+.header__link:hover {
+  color: black;
+  transition: all 0.8s ease;
+}
+
+#all-pages {
+  position: relative;
+  top: 0;
+  transition: all 800ms ease;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.page--blue {
+  background-color: #90a6be;
+}
+
+.page__img {
+  height: 100%;
+  width: 60%;
+}
+
+.page__img--blue {
+  background: url("/img/bg.jpg") center / cover;
+}
+
+.header--rightside {
+  align-items: center;
+  margin: 0 0 0 5%;
+}
+
+.shopping-cart__link {
+  color: black;
+}
+
+.page--green {
+  background-color: #b0bcb0;
+}
+
+.page__img--green {
+  background: url("/img/1f2c1dddb91d7399b230fa39144d1ec7.jpg") center / cover;
+}
+
+.page--brown {
+  background-color: #cec0b2;
+}
+
+.page__img--brown {
+  background: url("/img/b058f7fbca6d2c3934d326c9cf65cdee.jpg") center / cover;
+}
+
+.page--pink {
+  background-color: #cc9a97;
+}
+
+.page__img--pink {
+  background: url("/img/original.jpeg") center / cover;
+}
