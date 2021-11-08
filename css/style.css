@@ -79,12 +79,16 @@ span {
 }
 
 .page__img--blue {
-  background: url("/img/bg.jpg") center / cover;
+  background: url("../img/blue-bg.jpg") center / cover;
 }
 
 .header--rightside {
   align-items: center;
-  margin: 0 0 0 5%;
+}
+
+.content {
+  padding-left: 4%;
+  width: 40%;
 }
 
 .shopping-cart__link {
@@ -96,7 +100,7 @@ span {
 }
 
 .page__img--green {
-  background: url("/img/1f2c1dddb91d7399b230fa39144d1ec7.jpg") center / cover;
+  background: url("../img/green-bg.jpg") center / cover;
 }
 
 .page--brown {
@@ -104,7 +108,7 @@ span {
 }
 
 .page__img--brown {
-  background: url("/img/b058f7fbca6d2c3934d326c9cf65cdee.jpg") center / cover;
+  background: url("../img/brown-bg.jpg") center / cover;
 }
 
 .page--pink {
@@ -112,5 +116,97 @@ span {
 }
 
 .page__img--pink {
-  background: url("/img/original.jpeg") center / cover;
+  background: url("../img/pink-bg.jpg") center / cover;
 }
+
+.content__text {
+  padding-top: 30%;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+.dot--brown {
+  color: #a66142;
+}
+
+.dot--green {
+  color: #818f82;
+}
+
+.dot--grey {
+  color: #847465;
+}
+
+.dot--pink {
+  color: #b6635d;
+}
+
+.content__desc {
+  padding: 10% 0;
+  font-size: 15px;
+}
+
+.content__button {
+  width: 40%;
+  height: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: #f3dda3;
+  border-radius: 8px;
+  border: 0;
+  transition: all 0.8s ease;
+}
+
+.content__button:hover {
+  background-color: rgb(243, 221, 163, 0.5);
+  transition: all 0.8s ease;
+}
+.catalog {
+  position: absolute;
+  bottom: 70px;
+  right: 100px;
+  height: 60px;
+}
+
+.catalog__btn {
+  padding-left: 15px;
+  margin: 0 5px;
+  width: 180px;
+  height: 100%;
+  border-radius: 8px;
+  border: 0;
+  opacity: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  transition: all 0.8s ease;
+}
+
+.catalog__text,
+.catalog__price {
+  text-align: left;
+  padding-top: 4px;
+}
+
+.catalog__price {
+  font-size: 15px;
+}
+
+.catalog__btn:hover {
+   background-color: #a66142;
+   color: white;
+   transition: all 0.8s ease;
+}
+
+
