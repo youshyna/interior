@@ -6,10 +6,13 @@
   box-sizing: border-box;
 }
 
+html,
 body {
+  height: 100%;
+  width: 100%;
   font-family: "Montserrat", sans-serif;
 }
-
+/*--------------------HEADER---------------------*/
 a {
   text-decoration: none;
   font-weight: 400;
@@ -18,16 +21,14 @@ a {
   transition: all 0.8s ease;
 }
 
-.container {
-  overflow: hidden;
-}
-
 .header {
-  position: fixed;
+  position: absolute;
+  z-index: 1;
   display: flex;
   width: 60%;
   height: 60px;
 }
+
 .header--leftside {
   width: 60%;
   justify-content: space-between;
@@ -48,7 +49,7 @@ a {
   align-items: center;
 }
 
-span {
+.logo {
   color: black;
 }
 
@@ -56,21 +57,42 @@ span {
   color: black;
   transition: all 0.8s ease;
 }
+/*-----------------------PAGES----------------------------*/
 
-#all-pages {
+.pages {
+  height: 100%;
+  width: 100%;
   position: relative;
-  top: 0;
-  transition: all 800ms ease;
+  overflow: hidden;
 }
 
 .page {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: -100%;
+  transition: bottom 0.7s;
   display: flex;
+}
+
+.page:first-child {
+  bottom: 0;
 }
 
 .page--blue {
   background-color: #90a6be;
+}
+
+.page--green {
+  background-color: #b0bcb0;
+}
+
+.page--brown {
+  background-color: #cec0b2;
+}
+
+.page--pink {
+  background-color: #cc9a97;
 }
 
 .page__img {
@@ -82,41 +104,23 @@ span {
   background: url("../img/blue-bg.jpg") center / cover;
 }
 
-.header--rightside {
-  align-items: center;
-}
-
-.content {
-  padding-left: 4%;
-  width: 40%;
-}
-
-.shopping-cart__link {
-  color: black;
-}
-
-.page--green {
-  background-color: #b0bcb0;
-}
-
 .page__img--green {
   background: url("../img/green-bg.jpg") center / cover;
-}
-
-.page--brown {
-  background-color: #cec0b2;
 }
 
 .page__img--brown {
   background: url("../img/brown-bg.jpg") center / cover;
 }
 
-.page--pink {
-  background-color: #cc9a97;
-}
-
 .page__img--pink {
   background: url("../img/pink-bg.jpg") center / cover;
+}
+
+/*--------------------CONTENT----------------------------*/
+
+.content {
+  padding: 0 4%;
+  width: 40%;
 }
 
 .content__text {
@@ -172,6 +176,10 @@ h1 {
   background-color: rgb(243, 221, 163, 0.5);
   transition: all 0.8s ease;
 }
+
+/*-----------------------BUTTONS-------------------------*/
+
+
 .catalog {
   position: absolute;
   bottom: 70px;
@@ -203,10 +211,60 @@ h1 {
   font-size: 15px;
 }
 
-.catalog__btn:hover {
-   background-color: #a66142;
-   color: white;
-   transition: all 0.8s ease;
+.catalog__btn--blue:hover {
+  background-color: #a66142;
+  color: white;
+  transition: all 0.8s ease;
 }
 
+.catalog__btn--green:hover {
+  background-color: #818f82;
+  color: white;
+  transition: all 0.8s ease;
+}
 
+.catalog__btn--brown:hover {
+  background-color: #847465;
+  color: white;
+  transition: all 0.8s ease;
+}
+
+.catalog__btn--pink:hover {
+  background-color: #b6635d;
+  color: white;
+  transition: all 0.8s ease;
+}
+/*---------------PAGINATION------------------*/
+
+.pagination {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pagination > li {
+  list-style: none;
+  height: 20px;
+  width: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  margin-top: 10px;
+  transition: background 0.7s;
+}
+
+.pagination > li.active:nth-of-type(1) {
+  background: #a66142;
+}
+
+.pagination > li.active:nth-of-type(2) {
+  background: #818f82;
+}
+
+.pagination > li.active:nth-of-type(3) {
+  background: #847465;
+}
+
+.pagination > li.active:nth-of-type(4) {
+  background: #b6635d;
+}

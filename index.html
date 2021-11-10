@@ -11,38 +11,28 @@
 </head>
 
 <body>
-  <div class="container">
-    <header class="header header--leftside">
-      <div class="header__logo">
-
-        <a href="#" class="header__logo">home<span>for</span>soul</a>
+  <header class="header header--leftside">
+    <div class="header__logo">
+      <a href="#" class="header__logo">home<span class="logo">for</span>soul</a>
+    </div>
+    <div class="header__items">
+      <div class="header__item">
+        <a class="header__link" href="#">Каталог</a>
       </div>
-      <div class="header__items">
-        <div class="header__item">
-
-          <a class="header__link" href="#">Каталог</a>
-        </div>
-        <div class="header__item">
-
-          <a class="header__link" href="#">О нас</a>
-        </div>
-        <div class="header__item">
-
-          <a class="header__link" href="#">Контакты</a>
-        </div>
+      <div class="header__item">
+        <a class="header__link" href="#">О нас</a>
       </div>
-    </header>
-    <div id="all-pages"></div>
+      <div class="header__item">
+        <a class="header__link" href="#">Контакты</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="pages">
     <section class="page page--blue">
       <div class="page__img page__img--blue">
-
       </div>
       <div class="content">
-        <div class="header header--rightside">
-          <div class="shopping-cart">
-            <a href="#" class="shopping-cart__link">Корзина</a>
-          </div>
-        </div>
         <div class="content__text">
           <h2 class="content__sub-title">коллекция</h2>
           <h1 class="content__title">море<span class="dot dot--brown">.</span></h1>
@@ -52,29 +42,27 @@
           </p>
           <button class="content__button">Смотреть каталог</button>
         </div>
+        <div class="catalog">
+          <button class="catalog__btn catalog__btn--blue">
+            <p class="catalog__text"> Большая чайная кружка </p>
+            <p class="catalog__price">499 &#8372;</p>
+          </button>
+          <button class="catalog__btn catalog__btn--blue">
+            <p class="catalog__text">
+              Кувшин большой
+            </p>
+            <p class="catalog__price"> 729 &#8372;</p>
+          </button>
+          <button class="catalog__btn catalog__btn--blue">
+            <p class="catalog__text">Кувшин малый</p>
+            <p class="catalog__price">689 &#8372;</p>
+          </button>
+        </div>
       </div>
-      <div class="catalog">
-        <button class="catalog__btn">
-          <p class="catalog__text"> Большая чайная кружка </p>
-          <p class="catalog__price">499 &#8372;</p>
-        </button>
-        <button class="catalog__btn">
-          <p class="catalog__text">
-            Кувшин большой
-          </p>
-          <p class="catalog__price"> 729 &#8372;</p>
-
-        </button>
-        <button class="catalog__btn ">
-          <p class="catalog__text">Кувшин малый</p>
-          <p class="catalog__price">689 &#8372;</p>
-        </button>
-      </div>
-
     </section>
+
     <section class="page page--green">
       <div class="page__img page__img--green">
-
       </div>
       <div class="content">
         <div class="content__text">
@@ -86,12 +74,27 @@
           </p>
           <button class="content__button">Смотреть каталог</button>
         </div>
+        <div class="catalog catalog--green">
+          <button class="catalog__btn catalog__btn--green">
+            <p class="catalog__text"> Кофейная чашка </p>
+            <p class="catalog__price">499 &#8372;</p>
+          </button>
+          <button class="catalog__btn catalog__btn--green">
+            <p class="catalog__text">
+              Ваза белого цвета
+            </p>
+            <p class="catalog__price"> 729 &#8372;</p>
+          </button>
+          <button class="catalog__btn catalog__btn--green">
+            <p class="catalog__text">Железный поднос</p>
+            <p class="catalog__price">689 &#8372;</p>
+          </button>
+        </div>
       </div>
-      
     </section>
+
     <section class="page page--brown">
       <div class="page__img page__img--brown">
-
       </div>
       <div class="content">
         <div class="content__text">
@@ -103,11 +106,27 @@
           </p>
           <button class="content__button">Смотреть каталог</button>
         </div>
+        <div class="catalog catalog--brown">
+          <button class="catalog__btn catalog__btn--brown">
+            <p class="catalog__text">Маленькая ваза</p>
+            <p class="catalog__price">499 &#8372;</p>
+          </button>
+          <button class="catalog__btn catalog__btn--brown">
+            <p class="catalog__text">
+              Средняя ваза
+            </p>
+            <p class="catalog__price"> 729 &#8372;</p>
+          </button>
+          <button class="catalog__btn catalog__btn--brown">
+            <p class="catalog__text">Большая ваза</p>
+            <p class="catalog__price">689 &#8372;</p>
+          </button>
+        </div>
       </div>
     </section>
+
     <section class="page page--pink">
       <div class="page__img page__img--pink">
-
       </div>
       <div class="content">
         <div class="content__text">
@@ -119,10 +138,27 @@
           </p>
           <button class="content__button">Смотреть каталог</button>
         </div>
+        <div class="catalog catalog--pink">
+          <button class="catalog__btn catalog__btn--pink">
+            <p class="catalog__text">Маленькая ваза</p>
+            <p class="catalog__price">499 &#8372;</p>
+          </button>
+          <button class="catalog__btn catalog__btn--pink">
+            <p class="catalog__text">
+              Средняя ваза
+            </p>
+            <p class="catalog__price"> 729 &#8372;</p>
+          </button>
+          <button class="catalog__btn catalog__btn--pink">
+            <p class="catalog__text">Большая ваза</p>
+            <p class="catalog__price">689 &#8372;</p>
+          </button>
+        </div>
       </div>
     </section>
   </div>
-  </div>
+  <ul class="pagination">
+  </ul>
 </body>
 
 </html>
