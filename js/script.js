@@ -20,7 +20,6 @@ window.onload = () => {
       }
       btns[0].classList.add('active');
     }
-
     const gotoNum = (index) => {
       if((index != current) && !animation_state) {
         animation_state = true;
