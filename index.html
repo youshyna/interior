@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/menu.css">
+  
   <title>Home for Soul</title>
 </head>
 
@@ -15,7 +16,7 @@
     <div class="header__logo">
       <a href="#" class="header__logo">home<span class="logo">for</span>soul</a>
     </div>
-    <div class="header__items">
+    <div class="header__links">
       <div class="header__item">
         <a class="header__link" href="#">Каталог</a>
       </div>
@@ -26,8 +27,31 @@
         <a class="header__link" href="#">Контакты</a>
       </div>
     </div>
+    <!-- <div class="header__item">
+      <a class="header__link" href="#">Корзина</a>
+    </div> -->
+    <div class="header__items">
+      <div class="shop">
+        <a class="shop__link" href="#">Корзина</a>
+      </div>
+      <div class="header__icons">
+        <div class="search">
+          тут поиск
+        </div>
+        </div>
+        <div id="burger-menu">
+          <span></span>
+        </div>
+        <div id="menu">
+          <ul>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+      </div>
+      </div>
+    </div>
   </header>
-
   <div class="pages">
     <section class="page page--blue">
       <div class="page__img page__img--blue">
@@ -157,6 +181,8 @@
   </div>
   <ul class="pagination">
   </ul>
+  <script src="js/script.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 
 </html>

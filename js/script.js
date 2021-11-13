@@ -48,4 +48,3 @@ window.onload = () => {
   let slider = new Slider(pages, pagination)
 }
 
-
