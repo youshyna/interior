@@ -65,6 +65,13 @@ a {
 .header__icons {
   display: flex;
 }
+
+.search-btn{
+  margin-top: 2px;
+  width: 15px;  
+  height: 15px;
+}
+
 .logo {
   color: black;
 }
