@@ -67,9 +67,10 @@ a {
 }
 
 .search-btn{
-  margin-top: 2px;
-  width: 15px;  
-  height: 15px;
+  margin: 5px 10px 0 0;
+  width: 13px;  
+  height: 13px;
+  cursor: pointer;
 }
 
 .logo {
@@ -142,12 +143,11 @@ a {
 /*--------------------CONTENT----------------------------*/
 
 .content {
-  padding: 0 4%;
+  padding: 10% 4% 0;
   width: 40%;
 }
 
 .content__text {
-  padding-top: 30%;
   color: white;
 }
 
@@ -205,7 +205,7 @@ h1 {
 .catalog {
   position: absolute;
   bottom: 70px;
-  right: 100px;
+  right: 7%;
   height: 60px;
 }
 
