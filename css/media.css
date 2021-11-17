@@ -20,4 +20,59 @@
 }
 
 @media screen and (max-width: 575px) {
+  .header__logo {
+    font-size: 15px;
+  }
+  .header__links {
+    display: none;
+  }
+
+  .header__items {
+    width: 20%;
+    padding: 0;
+  }
+
+  .shop {
+    display: none;
+  }
+
+  .pages {
+    overflow: scroll;
+  }
+  
+  .page__img {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+    padding: 35% 4% 0;
+  }
+
+  .content__button {
+    width: 100%;
+  }
+
+  .catalog {
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0 3% 0;
+  }
+
+  .catalog__btn {
+    font-size: 10px;
+    width: 31%;
+    padding-right: 2%;
+    
+  }
+
+  .catalog__price {
+    font-size: 12px;
+  }
+
+  .pagination {
+    display: none;
+  }
+
 }

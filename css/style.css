@@ -207,6 +207,7 @@ h1 {
   bottom: 70px;
   right: 7%;
   height: 60px;
+  display: flex;
 }
 
 .catalog__btn {
