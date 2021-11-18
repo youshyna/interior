@@ -1,22 +1,81 @@
 @media screen and (min-width: 1440px) {
   .header a{
-    font-size: 15px;
+    font-size: 20px;
   }
+   .content {
+    padding-top: 15%;
+  } /*
+  .content__title {
+    font-size: 180px;
+  }
+
+  h2 { 
+    font-size: 40px;
+  }
+  .content__desc {
+    font-size: 30px;
+  }
+  .content__button {
+    width: 50%;
+    height: 70px;
+    font-size: 20px;
+  } */
+}
+
+@media screen and (max-width: 1439px) {
   .content {
     padding-top: 15%;
   }
-  .content__desc {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
 }
 
 @media screen and (max-width: 991px) {
+  .content {
+    padding: 15% 4% 0;
+  }
+  .content__button {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .header__links {
+    display: none;
+  }
+
+  .header__items {
+    width: 20%;
+    padding: 0 8%;
+  }
+
+  .shop {
+    display: none;
+  }
+
+  .content {
+    padding: 18% 0 0 4%;
+  }
+
+  .content__button {
+    width: 100%;
+  }
+
+  .catalog {
+    width: 100%;
+    right: 0;
+    bottom: 10%;
+  }
+
+  .catalog__btn {
+    width: 32%;
+  }
+
+  .page__img {
+    width: 50%;
+  }
+
+  #menu {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -39,6 +98,22 @@
   .pages {
     overflow: scroll;
   }
+
+  .page--blue {
+    background: url("../img/blue-bg.jpg") -35px / cover;
+  }
+
+  .page--green {
+    background: url("../img/green-bg.jpg") center / cover;
+  }
+
+  .page--brown {
+    background: url("../img/brown-bg.jpg") center / cover;
+  }
+
+  .page--pink {
+    background: url("../img/pink-bg.jpg") center / cover;
+  }
   
   .page__img {
     display: none;
@@ -49,11 +124,25 @@
     padding: 35% 4% 0;
   }
 
+  .content__desc {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    color: black;
+    font-size: 17px;
+    padding: 25px;
+  }
+
   .content__button {
-    width: 100%;
+    width: 92%;
+    /* margin: 20% 0; */
+    position: absolute;
+    left: 4%;
+    bottom: 3%;
+    height: 50px;
   }
 
   .catalog {
+    display: none;
     width: 100%;
     left: 0;
     right: 0;
@@ -69,6 +158,10 @@
 
   .catalog__price {
     font-size: 12px;
+  }
+
+  #menu {
+    width: 100%;
   }
 
   .pagination {
