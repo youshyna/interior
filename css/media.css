@@ -1,28 +1,49 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1660px) {
   .header a{
     font-size: 20px;
   }
-   .content {
-    padding-top: 15%;
-  } /*
+  
+  .content__button {
+    width: 60%;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .catalog{
+ height: 90px;
+ 
+  }
+  .catalog__btn {
+    width: 250px;
+  }
+
+  
   .content__title {
-    font-size: 180px;
+    font-size: 100px;
   }
 
   h2 { 
-    font-size: 40px;
+    font-size: 22px;
   }
   .content__desc {
-    font-size: 30px;
+    font-size: 22px;
   }
-  .content__button {
-    width: 50%;
-    height: 70px;
-    font-size: 20px;
-  } */
+
+  .catalog__text {
+    font-size: 15px;
+  }
+
+  .catalog__price {
+    font-size: 22px;
+  }
+.pagination > li {
+  width: 30px;
+  height: 30px;
+
+}
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1659px) {
   .content {
     padding-top: 15%;
   }
